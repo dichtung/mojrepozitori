@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Srki samo napred</title>
+  </head>
+  <body>
+    Ko je najjaci?
+    <input id="ime" value="" />
+    <button onclick="myFunction()">OK</button>
+    <p id="demo"></p>
+    <script>
+    function myFunction() {
+          var x = document.getElementById("ime").value;
+          voteable = (x === 'Srki') ? "Tako je":"Ne nego je srki";
+          document.getElementById("demo").innerHTML = voteable;
+      }
+    </script>
+  </body>
+</html>
